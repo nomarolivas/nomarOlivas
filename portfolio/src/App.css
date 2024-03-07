@@ -5,8 +5,8 @@
 
 
 .App-header {
-
-  background: hsla(236, 100%, 8%, 1);
+  /* original */
+  /* background: hsla(236, 100%, 8%, 1);
 
   background: radial-gradient(circle, hsla(236, 100%, 8%, 1) 0%, hsla(183, 96%, 22%, 1) 32%, hsla(211, 100%, 28%, 1) 100%);
 
@@ -14,14 +14,27 @@
 
   background: -webkit-radial-gradient(circle, hsla(236, 100%, 8%, 1) 0%, hsla(183, 96%, 22%, 1) 32%, hsla(211, 100%, 28%, 1) 100%);
 
-  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#000328", endColorstr="#026A6F", GradientType=1 );
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#000328", endColorstr="#026A6F", GradientType=1 ); */
+
+  background: hsla(236, 100%, 8%, 1);
+
+  background: radial-gradient(circle, hsla(236, 100%, 8%, 1) 0%, hsla(183, 98%, 18%, 1) 32%, hsla(211, 100%, 28%, 1) 100%);
+
+  background: -moz-radial-gradient(circle, hsla(236, 100%, 8%, 1) 0%, hsla(183, 98%, 18%, 1) 32%, hsla(211, 100%, 28%, 1) 100%);
+
+  background: -webkit-radial-gradient(circle, hsla(236, 100%, 8%, 1) 0%, hsla(183, 98%, 18%, 1) 32%, hsla(211, 100%, 28%, 1) 100%);
+
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#000328", endColorstr="#01555A", GradientType=1 );
+
+
+
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  /* color: white; */
+  
 }
 
 .nomar-Title{
