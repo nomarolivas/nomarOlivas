@@ -39,7 +39,8 @@
 
 .nomar-Title{
   color: whitesmoke;
-  animation: fade-in 3s;
+  /* animation: fade-in 3s; */
+  animation: fade-in 5s;
 }
 
 @keyframes fade-in {
@@ -65,12 +66,32 @@
   border-radius: 16px;
   font-size: 15px;
   margin-bottom: 7px;
-  animation: fade-in 5s;
+  /* animation: fade-in 5s; */
+  animation: fade-in 8s;
 }
 
 .link-btn:hover{
   background-color: #505251;
 
+}
+
+.sweNav{
+  background: hsla(236, 100%, 8%, 1);
+
+  background: linear-gradient(0deg, hsla(236, 100%, 8%, 1) 0%, hsla(183, 98%, 18%, 1) 32%, hsla(211, 100%, 28%, 1) 100%);
+  
+  background: -moz-linear-gradient(0deg, hsla(236, 100%, 8%, 1) 0%, hsla(183, 98%, 18%, 1) 32%, hsla(211, 100%, 28%, 1) 100%);
+  
+  background: -webkit-linear-gradient(0deg, hsla(236, 100%, 8%, 1) 0%, hsla(183, 98%, 18%, 1) 32%, hsla(211, 100%, 28%, 1) 100%);
+  
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#000328", endColorstr="#01555a", GradientType=1 );
+  min-height: 100vh;
+  display: flex;
+  /* flex-direction: column; */
+  /* align-items: center; */
+  /* justify-content: center; */
+  font-size: calc(10px + 2vmin);
+  color: whitesmoke;
 }
 
 
