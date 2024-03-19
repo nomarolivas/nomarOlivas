@@ -3,7 +3,7 @@ const Home = () => {
     return (
         <div className="App">
             <header className="App-header">
-                <h1 className="nomar-Title" >Nomar Olivas</h1>
+                <h1 className="nomar-Title">Nomar Olivas</h1>
 
 
                 <Link to="/SwePage"><button class="link-btn">Software Engineer</button></Link>

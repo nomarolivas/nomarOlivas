@@ -1,3 +1,10 @@
+import {
+    AiFillLinkedin,
+    AiFillGithub,
+  
+  } from "react-icons/ai";
+
+
 const Swe = () => {
     return (
         <div swePage>
@@ -9,6 +16,12 @@ const Swe = () => {
                     <h5>About</h5>
                     <h5>Projects</h5>
                     <h5>Resume</h5>
+                    <button onClick={() => clickLinkedIn()}>
+                <AiFillLinkedin />
+                <button onClick={() => clickGit()}>
+                <AiFillGithub />
+            </button>
+            </button>
                 </div>
             </div>
         </div>
@@ -17,3 +30,15 @@ const Swe = () => {
 }
 
 export default Swe;
+
+
+function clickLinkedIn() {
+    window.open("https://www.linkedin.com/in/nomarolivas/", '_blank');
+    
+  }
+  
+  function clickGit() {
+  
+    window.open("https://github.com/nomarolivas", '_blank');
+    
+  }

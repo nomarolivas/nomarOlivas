@@ -1,8 +1,14 @@
 /* .App {
   text-align: center;
 } */
-
-
+@font-face {
+  font-family: NidusSans;
+  src: url(./nidsans-webfont.ttf);
+}
+@font-face {
+  font-family: Trn;
+  src: url(./Stacker-jE03l.ttf);
+}
 
 .App-header {
   /* original */
@@ -41,6 +47,8 @@
   color: whitesmoke;
   /* animation: fade-in 3s; */
   animation: fade-in 5s;
+  /* font-family: Trn;
+  font-size: 40px; */
 }
 
 @keyframes fade-in {
@@ -68,6 +76,7 @@
   margin-bottom: 7px;
   /* animation: fade-in 5s; */
   animation: fade-in 8s;
+  font-family: NidusSans;
 }
 
 .link-btn:hover{
@@ -96,7 +105,12 @@
 
 .sweLinks{
     color: whitesmoke;
-    text-align: left;
+    text-align: center;
+    margin-left: 40px;
+
+    
+    border-color: white;
+
 }
 
 
